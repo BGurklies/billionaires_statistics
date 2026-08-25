@@ -26,7 +26,7 @@ Ensure you have the following installed on your local machine:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/Nazgul773/billionaires_statistics.git
+   git clone https://github.com/BGurklies/billionaires_statistics.git
 
 2. Set up a virtual environment (optional but recommended):
    ```bash
@@ -50,25 +50,23 @@ Ensure you have the following installed on your local machine:
    ```
 <a id="introduction"></a>
 ## Introduction 
-Embark on a comprehensive journey into the world of global billionaires through a two-step process. In the initial phase, the dataset undergoes rigorous cleaning, focusing on standardizing column names, handling missing data, addressing duplicates, and managing outliers. This ensures the dataset's accuracy and reliability for subsequent analysis. The refined dataset is then stored for further exploration in the second step, where an in-depth Exploratory Data Analysis (EDA) unfolds.
+This project analyzes the 2023 Billionaires Statistics dataset. It begins with data cleaning, including standardizing column names, handling missing values, removing duplicates, and addressing data quality issues. The cleaned data is then used for an exploratory data analysis (EDA) to examine patterns and relationships within the dataset.
 
 <a id="analysis_objectives"></a>
 ## Objectives of the Analysis
-This EDA project aims to uncover patterns in demographics, examine global wealth distribution among billionaires, and investigate correlations between economic indicators and the billionaire landscape. The comprehensive analysis will cover key details, including age distribution, regional patterns, industry trends, and various economic indicators associated with notable billionaires worldwide.
+The analysis explores demographic characteristics, the geographic distribution of billionaires, industry representation, and selected economic indicators. It also examines relationships between billionaire statistics and country-level economic metrics.
 
 <a id="data_source"></a>
 ## Data Source and Acknowledgments
 
-The dataset for this analytics project is sourced from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset) from the year 2023, providing a rich resource for in-depth analysis of wealth distribution and socioeconomic factors.
+The dataset used in this project is the **2023 Billionaires Statistics Dataset**, available on [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset).
 
 ### Acknowledgments
 
-Special thanks to [Kaggle](https://www.kaggle.com) for providing the dataset, as well as:
+This project uses the following open-source libraries:
 
-- [Pandas](https://pandas.pydata.org/) for its powerful data manipulation capabilities, and
-- [Seaborn](https://seaborn.pydata.org/) for its contribution to insightful data visualization.
-
-These tools have been invaluable in conducting a thorough exploratory data analysis and deriving meaningful insights from the billionaire statistics dataset.
+- **Pandas** for data cleaning and analysis
+- **Matplotlib** and **Seaborn** for data visualization
 
 <a id="results"></a>
 ## Results 
